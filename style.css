@@ -119,7 +119,7 @@ body{
 }
 
 .gallery{
-    height:600px;
+    height:800px;
     background-color:black;
     color:white;
 }
@@ -193,7 +193,7 @@ header {
         transform: translate3d(0, 0, 0);
       }
       100% {
-        transform: translate3d(-200px, 0, 0); /* The image width */
+        transform: translate3d(-1400px, 0, 0); /* The image width */
       }
 
   }
@@ -201,7 +201,12 @@ header {
   .featured{
     background-color:black;
     color:white;
-    height:710px;
+    height:900px;   
+  }
+
+  #feaText{
+    position:relative;
+    top:-100px;
   }
 
   .sectionTitle{
@@ -300,6 +305,26 @@ line-height: 26px;
 letter-spacing: 0em;
 text-align: left;
 margin-top:20px;
+
+  }
+
+  #push{
+    position: relative;
+    left: 800px;
+    top: 200px;
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  #category{
+    font-family: 'Kolker Brush', cursive;
+font-size: 100px;
+font-weight: 400;
+color:red;
+margin-left:20px;
 
   }
 
