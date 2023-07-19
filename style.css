@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    background-color:black;
 }
 
   .container{
@@ -33,7 +34,7 @@ body{
   }
 
   .kv{
-    height:600px;
+    height:700px;
     width:100%;
     margin: 0 auto;
     background-color:black;
@@ -139,6 +140,10 @@ body{
 
 }
 
+.hide{
+  display:none;
+}
+
 
 
 header {
@@ -178,7 +183,7 @@ header {
  }
  
  .imagegroup {
-    animation: travel 20s linear infinite;
+    animation: travel 200s linear infinite;
    }
  
  @keyframes travel {
@@ -290,7 +295,7 @@ header {
   }
 
   .slideshow{
-    height: 700px;
+    height: 1000px;
     background-color: black;
     color: white;
   }
@@ -308,11 +313,33 @@ margin-top:20px;
 
   }
 
+  #mainPush{
+    font-family: 'Jost', sans-serif;
+    font-size: 85px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 96px;
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+
+  }
+
+  #catPush{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 150px;
+    line-height: 96px;
+    font-weight: 400;
+    text-align: left;
+    color: red;
+
+  }
+
   #push{
     position: relative;
     left: 500px;
     top: 200px;
-    font-family: Jost;
+    font-family: 'Jost', sans-serif;
     font-size: 50px;
     font-weight: 400;
     text-align: left;
@@ -339,6 +366,7 @@ margin-left:20px;
     left:500px;
 
   }
+  
 
 
   .contact{
@@ -532,17 +560,17 @@ a { color: inherit; text-decoration: none;}
 font-size:20px;
 line-height:initial;
 margin-bottom: 20px;
-margin-left:5px;
+margin-left:20px;
 margin-right:5px;
 }
 
 .sectionText{
   margin-bottom:50px;
-  margin-left:5px;
+  margin-left:20px;
 }
 .featuredText{
   margin-bottom:20px;
-  margin-left:5px;
+  margin-left:20px;
 }
 
 
@@ -621,6 +649,29 @@ div br{
     margin: 0 auto;
 }
 
+#mainPush{
+  font-size:32px;
+  line-height:initial;
+  width:80%;
+}
+
+#catPush{
+  font-size: 80px;
+  line-height: initial;
+  margin-left: 10px;
+}
+
   
 
+}
+
+@media screen and (min-width: 1600px) {
+.kv{
+  width:80%;
+  height:800px;
+}
+
+.row{
+  background-color:black;
+}
 }
