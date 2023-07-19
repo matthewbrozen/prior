@@ -24,7 +24,7 @@ setInterval(changeImage, 6000);
 var im2 = document.getElementById("switchImg");
 var cat = document.getElementById("catPush");
 
-var images2 = ["https://picsum.photos/seed/2/342/180","https://picsum.photos/seed/1/342/180","https://picsum.photos/seed/3/342/180",];
+var images2 = ["l2.jpg","l3.jpg","l1.jpg",];
 var index2=0;
 
 function changeImage2()
