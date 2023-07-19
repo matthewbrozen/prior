@@ -11,6 +11,8 @@ body{
   .row{
     width:100%;
     margin: 0 auto;
+    /* border-bottom:10px solid white; */
+    padding-bottom: 20px;
 
   }
 
@@ -137,6 +139,7 @@ body{
     line-height: 115px;
     letter-spacing: 0em;
     text-align: center;
+    padding-bottom:30px;
 
 }
 
@@ -212,6 +215,7 @@ header {
   #feaText{
     position:relative;
     top:-100px;
+    padding-left:20px;
   }
 
   .sectionTitle{
