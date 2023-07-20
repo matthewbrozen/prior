@@ -386,6 +386,7 @@ margin-left:20px;
     width:1100px;
     margin: 0 auto;
     background-image:url("contact.png");
+    background-size:cover;
   }
 
 
@@ -400,6 +401,7 @@ margin-left:20px;
     margin:0 auto;
     position: relative;
     bottom: -40px;
+    text-shadow: 2px 2px 2px black;
 
   }
 
