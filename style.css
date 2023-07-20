@@ -123,8 +123,7 @@ body{
 }
 
 .gallery{
-    /* height:800px; */
-    height:1200px;
+    height:800px;
     background-color:black;
     color:white;
 }
